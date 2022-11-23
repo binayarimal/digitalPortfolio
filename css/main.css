@@ -15,13 +15,24 @@ html {
     background: rgb(255, 124, 112);
 }
 
-h1 {
+h1{
     font-weight: normal;
     margin: auto;
     background: #fff;
     line-height: 2.5em;
 }
+h3.title{
+    font-weight: normal;
+    margin-top: auto;
+    margin-bottom:auto;
+    margin-right:10%;
+    margin-left:10%;
+    padding-left: 15px;
 
+
+    background: #fff;
+    line-height: 2.5em;
+}
 h1.page-header{
     font-family: 'Open Sans',sans-serif;
     color: rgb(0, 87, 99);
@@ -33,6 +44,11 @@ h1.page-header{
     border-top-right-radius: 5px;
  }
  
+ h3.title{
+    font-family: 'Open Sans',sans-serif;
+    color: rgb(0, 87, 99);
+
+ }
 
  main.wrapper {
     background-color: white;
@@ -111,6 +127,12 @@ footer {
         width: 89%;
         padding-left: 1%;
     }
+    h3.title {
+        
+        padding-left: 1%;
+        margin-left:5%;
+        margin-right: 5%;
+    }
     
     picture.profile img {
         width: 50%;
@@ -133,7 +155,12 @@ footer {
         width: 99%;
         padding-left: 1%;
     }
-    
+    h3.title {
+        
+        padding-left: 1%;
+        margin-left:auto;
+        margin-right:auto;
+    }
     picture.profile img {
         width: 95%;
         margin-left: 2.5%;
