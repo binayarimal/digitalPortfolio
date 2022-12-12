@@ -15,6 +15,12 @@ html {
     background: rgb(255, 124, 112);
 }
 
+hr{
+    margin-top: 5%;
+    width: 80%;
+    background: rgb(255, 124, 112);
+}
+
 h1{
     font-weight: normal;
     margin: auto;
@@ -57,9 +63,9 @@ h1.page-header{
     -moz-border-radius-bottomright: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    
  }
  
-
 p {
     margin: 1em; /* Top Right Bottom Left (TRBL) */
 }
@@ -88,6 +94,7 @@ footer {
     padding: 1em;
 }
 
+
 /* Responsive rules */
 
 /* DESKTOP */
@@ -97,6 +104,10 @@ footer {
         margin: auto;
     }
     
+    div.picVid{
+        width: 80%;
+        margin: auto;
+    }
     h1 {
         width: 79%;
         padding-left: 1%;
@@ -114,6 +125,42 @@ footer {
         
     }
     
+}
+
+
+img.picProf{
+    width: 40%;
+    float: left;
+    margin-right: 2em;
+    margin-top: 5%;
+    border-radius: 5px;
+    margin-left:2%;       
+}
+img.picProf2{
+    width: 30%;
+    float: left;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-left:2%;
+    border-radius: 5px;
+    margin-bottom: 4%;   
+    
+}
+
+
+
+iframe.video1{
+    width: 45%;
+    float : left;
+    margin-right: 2%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 5px;
+    margin-bottom: 4%;     
+}
+
+div.resume{
+    margin-top:5%;
 }
 
 /* TABLET */
@@ -171,6 +218,20 @@ footer {
         margin-top: 2.5%;
         
     }
+
+    iframe.video1{
+        width: 90%;
+        
+    }
+    
+    img.picProf{
+        width: 90%;
+        margin-right: 2%;
+        margin-left: 5%;
+        margin-top: 5%;
+        border-radius: 5px;
+        margin-bottom: 4%;        
+    }
     
 }
     
@@ -203,22 +264,7 @@ footer {
         margin-top: 2%;
     }
 
-}
-img.picProf{
-    width: 25%;
-    float: left;
-    margin-right: 2em;
-    border-radius: 5px;
-    margin-top: 1%;
-    margin-left:10%;  
     
+
 }
-img.picProf2{
-    width: 25%;
-    float: left;
-    margin-right: 10%;
-    border-radius: 5px;
-    margin-top: 1%;
-    margin-left:1%;   
-    
-}
+
